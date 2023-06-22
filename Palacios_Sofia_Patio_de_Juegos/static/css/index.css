@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.upper-container {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+
+.lower-container {
+    display: grid; /* Cambio a display: grid */
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));/* Cuadrícula flexible */
+    justify-items: center;
+    justify-content: center; 
+    align-items: center;
+    grid-gap: 20px;/* Espacio entre los elementos de la cuadrícula */
+
+}
+
+.squares {
+    width: 260px;
+    height: 260px;
+    background-color: lightskyblue;
+    border: solid black;
+}
